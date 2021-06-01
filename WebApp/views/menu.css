@@ -1,0 +1,42 @@
+html {
+font-family: "Consolas";
+display: none;
+}
+
+body {
+background-color: #a9a9a9;
+}
+
+#menu {
+display: block;
+width: auto;
+overflow: hidden;
+text-align: center;
+padding-top: 20px;
+font-size: 0;
+}
+
+#menu ul {
+margin: 0;
+padding: 0;
+width: auto;
+}
+
+#menu ul li {
+display: inline-block;
+list-style-type: none;
+font-size: 25px;
+margin-right: 2px;
+padding-right: 5%;
+padding-left: 5%;
+}
+
+a {
+display: block;
+text-decoration: none;
+color: #696969;
+}
+
+a:hover {
+opacity:0.5;
+}

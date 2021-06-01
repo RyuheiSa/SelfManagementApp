@@ -1,0 +1,48 @@
+html {
+display: none;
+}
+
+body {
+margin: 0;
+width: 100vw;
+height: 100vh;
+background: linear-gradient(-45deg, rgba(240, 78, 44, .4), rgba(15, 48, 91, .2)),
+ url("../TopPage/images/toppage.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Consolas';
+font-size: 25px;
+color: #d3d3d3;
+text-align: center;
+}
+
+input {
+margin: auto;
+text-align: center;
+display: block;
+width: 250px;
+height: 40px;
+color: #696969;
+opacity: 0.5;
+}
+
+.button {
+opacity: 0.6;
+display: inline-block;
+text-align: center;
+}
+
+a {
+display: block;
+text-decoration: none;
+font-size: 20px;
+width: 120px;
+height: 30px;
+font-family: 'Consolas';
+color: #696969;
+}
+
+h1 {
+padding-top: 25px;
+padding-bottom: 130px;
+}
