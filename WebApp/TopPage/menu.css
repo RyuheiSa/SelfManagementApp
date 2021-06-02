@@ -4,7 +4,13 @@ display: none;
 }
 
 body {
-background-color: #a9a9a9;
+margin: 0;
+width: 100vw;
+height: 100vh;
+background: linear-gradient(-45deg, rgba(240, 78, 44, .4), rgba(15, 48, 91, .2)),
+url("../TopPage/images/toppage.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 #menu {
@@ -34,7 +40,7 @@ padding-left: 5%;
 a {
 display: block;
 text-decoration: none;
-color: #696969;
+color: #f5f5dc;
 }
 
 a:hover {
